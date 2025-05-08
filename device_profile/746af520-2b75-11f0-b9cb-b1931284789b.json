@@ -30,8 +30,8 @@
         "type" : "DEFAULT"
       },
       "provisionConfiguration" : {
-        "type" : "DISABLED",
-        "provisionDeviceSecret" : null
+        "type" : "ALLOW_CREATE_NEW_DEVICES",
+        "provisionDeviceSecret" : "29xx6su9q12ou43mno9e"
       },
       "transportConfiguration" : {
         "type" : "MQTT",
@@ -46,8 +46,8 @@
         }
       }
     },
-    "provisionDeviceKey" : null,
-    "provisionType" : "DISABLED",
+    "provisionDeviceKey" : "7dsjk69qw38kyjmw1kur",
+    "provisionType" : "ALLOW_CREATE_NEW_DEVICES",
     "softwareId" : null,
     "transportType" : "MQTT",
     "type" : "DEFAULT"
