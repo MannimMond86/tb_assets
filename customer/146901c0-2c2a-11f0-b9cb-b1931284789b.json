@@ -1,0 +1,29 @@
+{
+  "entityType" : "CUSTOMER",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : "",
+      "homeDashboardId" : null,
+      "homeDashboardHideToolbar" : true
+    },
+    "address" : null,
+    "address2" : null,
+    "city" : null,
+    "country" : null,
+    "email" : null,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "CUSTOMER",
+      "id" : "146901c0-2c2a-11f0-b9cb-b1931284789b"
+    },
+    "name" : "Zentrale",
+    "phone" : null,
+    "state" : null,
+    "title" : "Zentrale",
+    "zip" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
