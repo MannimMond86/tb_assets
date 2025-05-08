@@ -38,13 +38,38 @@
     "credentialsType" : "ACCESS_TOKEN",
     "credentialsValue" : null
   },
+  "relations" : [ ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
       "booleanValue" : false,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1746721612033,
+      "lastUpdateTs" : 1746722247530,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1746722247530,
+      "longValue" : 1746722247530,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 54.328896,
+      "jsonValue" : null,
+      "key" : "latitude",
+      "lastUpdateTs" : 1746722982856,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 10.175028,
+      "jsonValue" : null,
+      "key" : "longitude",
+      "lastUpdateTs" : 1746722964037,
       "longValue" : null,
       "strValue" : null
     } ],
