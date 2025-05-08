@@ -104,6 +104,14 @@
       "longValue" : null,
       "strValue" : null
     } ],
-    "SHARED_SCOPE" : [ ]
+    "SHARED_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "shared_Test",
+      "lastUpdateTs" : 1746725030946,
+      "longValue" : null,
+      "strValue" : "shared_value"
+    } ]
   }
 }
