@@ -21,8 +21,29 @@
     "name" : "test",
     "type" : "default"
   },
-  "relations" : [ ],
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "6533f2f0-2c29-11f0-b9cb-b1931284789b"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "3f8e0a40-2c29-11f0-b9cb-b1931284789b"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 2253
+  } ],
   "attributes" : {
-    "SERVER_SCOPE" : [ ]
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lore_ipsum_server_attribute",
+      "lastUpdateTs" : 1746723726989,
+      "longValue" : null,
+      "strValue" : "test"
+    } ]
   }
 }
