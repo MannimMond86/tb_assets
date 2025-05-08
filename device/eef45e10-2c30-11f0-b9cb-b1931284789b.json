@@ -1,0 +1,109 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : false,
+      "description" : "lore_ipsum_description123"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "4e25b9b0-2a79-11f0-b9cb-b1931284789b"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "eef45e10-2c30-11f0-b9cb-b1931284789b"
+    },
+    "label" : "lore_ipsum_label",
+    "name" : "test1",
+    "softwareId" : null,
+    "type" : "default"
+  },
+  "credentials" : {
+    "credentialsId" : "ALKGfPoEXdfgdfgdfgsas",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "Active",
+      "lastUpdateTs" : 1746724912757,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "Credentials Type",
+      "lastUpdateTs" : 1746724912757,
+      "longValue" : null,
+      "strValue" : "ACCESS_TOKEN"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "Customer ID",
+      "lastUpdateTs" : 1746724912757,
+      "longValue" : null,
+      "strValue" : "146901c0-2c2a-11f0-b9cb-b1931284789b"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "Device Profile ID",
+      "lastUpdateTs" : 1746724912757,
+      "longValue" : null,
+      "strValue" : "4e25b9b0-2a79-11f0-b9cb-4e25b9b0"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "Inactivity Alarm Time",
+      "lastUpdateTs" : 1746724912757,
+      "longValue" : 1746722247530,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 54.328896,
+      "jsonValue" : null,
+      "key" : "Latitude",
+      "lastUpdateTs" : 1746724912757,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 10.175028,
+      "jsonValue" : null,
+      "key" : "Longitude",
+      "lastUpdateTs" : 1746724912757,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1746724912766,
+      "longValue" : null,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}
