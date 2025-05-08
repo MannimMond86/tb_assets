@@ -2,18 +2,27 @@
   "entityType" : "DEVICE_PROFILE",
   "entity" : {
     "default" : false,
-    "defaultDashboardId" : null,
-    "defaultEdgeRuleChainId" : null,
-    "defaultQueueName" : null,
-    "defaultRuleChainId" : null,
-    "description" : "Default device profile",
+    "defaultDashboardId" : {
+      "entityType" : "DASHBOARD",
+      "id" : "fcd98dc0-2a7d-11f0-b9cb-b1931284789b"
+    },
+    "defaultEdgeRuleChainId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "4e24cf50-2a79-11f0-b9cb-b1931284789b"
+    },
+    "defaultQueueName" : "Main",
+    "defaultRuleChainId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "4e23e4f0-2a79-11f0-b9cb-b1931284789b"
+    },
+    "description" : "lore_ipsum_description",
     "externalId" : null,
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE_PROFILE",
       "id" : "746af520-2b75-11f0-b9cb-b1931284789b"
     },
-    "image" : null,
+    "image" : "tb-image;https://pos-experience.de/wp-content/uploads/2023/02/cropped-pos_experice_logo_200a-200x59.png",
     "name" : "Firewallt",
     "profileData" : {
       "alarms" : null,
