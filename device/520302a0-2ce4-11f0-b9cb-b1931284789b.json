@@ -2,8 +2,8 @@
   "entityType" : "DEVICE",
   "entity" : {
     "additionalInfo" : {
-      "gateway" : false,
-      "description" : "lore_ipsum_description"
+      "description" : "Updated description",
+      "gateway" : false
     },
     "customerId" : {
       "entityType" : "CUSTOMER",
@@ -19,7 +19,7 @@
     },
     "deviceProfileId" : {
       "entityType" : "DEVICE_PROFILE",
-      "id" : "4e25b9b0-2a79-11f0-b9cb-b1931284789b"
+      "id" : "5e7050b0-2ce4-11f0-b9cb-b1931284789b"
     },
     "externalId" : null,
     "firmwareId" : null,
@@ -27,10 +27,10 @@
       "entityType" : "DEVICE",
       "id" : "520302a0-2ce4-11f0-b9cb-b1931284789b"
     },
-    "label" : "lore_ipsum_label",
-    "name" : "device-name",
+    "label" : "Updated Label",
+    "name" : "Updated Device Name",
     "softwareId" : null,
-    "type" : "default"
+    "type" : "Updated Type"
   },
   "credentials" : {
     "credentialsId" : "dfgdsfgsdfgsdfgsdfgdsfg",
@@ -39,7 +39,15 @@
   },
   "relations" : [ ],
   "attributes" : {
-    "SERVER_SCOPE" : [ ],
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1746801958875,
+      "longValue" : null,
+      "strValue" : null
+    } ],
     "SHARED_SCOPE" : [ ]
   }
 }
