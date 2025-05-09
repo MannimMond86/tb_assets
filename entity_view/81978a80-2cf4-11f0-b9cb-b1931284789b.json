@@ -5,7 +5,7 @@
       "entityType" : "CUSTOMER",
       "id" : "13814000-1dd2-11b2-8080-808080808080"
     },
-    "endTimeMs" : 1746888060000,
+    "endTimeMs" : 1767195660000,
     "entityId" : {
       "entityType" : "DEVICE",
       "id" : "97006e90-2ceb-11f0-b9cb-b1931284789b"
@@ -20,10 +20,10 @@
       "timeseries" : null
     },
     "name" : "Location Kiel",
-    "startTimeMs" : 1746715260000,
+    "startTimeMs" : 1735746060000,
     "type" : "signages",
     "additionalInfo" : {
-      "description" : "Day View"
+      "description" : "Year View"
     },
     "id" : {
       "entityType" : "ENTITY_VIEW",
