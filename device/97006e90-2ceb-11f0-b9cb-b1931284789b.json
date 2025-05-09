@@ -1,0 +1,61 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : "Temperature sensor in warehouse A",
+      "gateway" : false,
+      "location" : {
+        "latitude" : 54.328896,
+        "longitude" : 10.175028
+      },
+      "itop" : {
+        "uid" : "2cd8-11f0-b9cb",
+        "name" : "device-name"
+      }
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "146901c0-2c2a-11f0-b9cb-b1931284789b"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "MQTT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "746af520-2b75-11f0-b9cb-b1931284789b"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "97006e90-2ceb-11f0-b9cb-b1931284789b"
+    },
+    "label" : "lore ipsum label",
+    "name" : "Name_DeviceWithCredential",
+    "softwareId" : null,
+    "type" : "Firewallt"
+  },
+  "credentials" : {
+    "credentialsId" : "6hmxew8pmmzng4e4564563u1231231ne3",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1746805081098,
+      "longValue" : null,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}
