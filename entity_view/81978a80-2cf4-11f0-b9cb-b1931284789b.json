@@ -1,0 +1,45 @@
+{
+  "entityType" : "ENTITY_VIEW",
+  "entity" : {
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "endTimeMs" : 1746888060000,
+    "entityId" : {
+      "entityType" : "DEVICE",
+      "id" : "97006e90-2ceb-11f0-b9cb-b1931284789b"
+    },
+    "externalId" : null,
+    "keys" : {
+      "attributes" : {
+        "cs" : [ "active" ],
+        "sh" : [ "doubleKey" ],
+        "ss" : [ "longKey" ]
+      },
+      "timeseries" : null
+    },
+    "name" : "Location Kiel",
+    "startTimeMs" : 1746715260000,
+    "type" : "signages",
+    "additionalInfo" : {
+      "description" : "Day View"
+    },
+    "id" : {
+      "entityType" : "ENTITY_VIEW",
+      "id" : "81978a80-2cf4-11f0-b9cb-b1931284789b"
+    }
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "longKey",
+      "lastUpdateTs" : 1746807326229,
+      "longValue" : 73,
+      "strValue" : null
+    } ]
+  }
+}
