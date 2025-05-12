@@ -1,0 +1,37 @@
+{
+  "entityType" : "WIDGET_TYPE",
+  "entity" : {
+    "fqn" : "my-widget",
+    "name" : "My Widget",
+    "deprecated" : false,
+    "image" : "tb-image;/api/images/system/my-widget.svg",
+    "description" : "Short description here",
+    "descriptor" : {
+      "type" : "latest",
+      "sizeX" : 3,
+      "sizeY" : 1,
+      "resources" : [ ],
+      "templateHtml" : "<tb-my-widget-widget\r\n  [ctx]=\"ctx\"\r\n  [widgetTitlePanel]=\"widgetTitlePanel\">\r\n</tb-my-widget-widget>\r\n",
+      "templateCss" : "#container tb-my-widget-widget {\r\n    height: 100%;\r\n    display: block;\r\n}\r\n\r\n#container tb-my-widget-widget .my-widget-content {\r\n    /* your inner styling here */\r\n    height: 100%;\r\n    overflow: auto;\r\n}",
+      "controllerScript" : "self.onInit = function () {\r\n    // delegate init to your Angular component\r\n    self.ctx.$scope.myWidget.onInit();\r\n};\r\n\r\nself.actionSources = function () {\r\n    return {\r\n        'my-action': {\r\n            name: 'widget-action.myAction',\r\n            multiple: false\r\n        }\r\n    };\r\n};\r\n\r\nself.typeParameters = function () {\r\n    return {\r\n        dataKeysOptional: true,\r\n        datasourcesOptional: true,\r\n        maxDatasources: 1,\r\n        maxDataKeys: 0,\r\n        singleEntity: true,\r\n        previewWidth: '200px',\r\n        previewHeight: '80px',\r\n        embedTitlePanel: true,\r\n        overflowVisible: true,\r\n        hideDataSettings: true\r\n    };\r\n};\r\n\r\nself.onDestroy = function () {\r\n    // clean up if necessary\r\n};\r\n",
+      "settingsDirective" : "tb-my-widget-widget-settings",
+      "basicModeDirective" : "tb-my-widget-basic-config",
+      "hasBasicMode" : true,
+      "settingsSchema" : "{\"schema\":{\"type\":\"object\",\"properties\":{\"label\":{\"title\":\"Widget Title\",\"type\":\"string\",\"default\":\"My Local Widget\"}}},\"form\":[{\"key\":\"label\",\"type\":\"text\"}]}",
+      "dataKeySettingsSchema" : "{\"schema\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\",\"title\":\"Datasource Name\"}},\"required\":[\"name\"]}},\"default\":[{\"name\":\"Temperature\"}]}",
+      "defaultConfig" : "{\"datasources\":[],\"timewindow\":{\"realtime\":{\"timewindowMs\":60000}},\"showTitle\":false,\"backgroundColor\":\"#FFFFFF01\",\"color\":\"rgba(0,0,0,0.87)\",\"padding\":\"0px\",\"settings\":{},\"title\":\"My Widget\",\"showTitleIcon\":false,\"iconColor\":\"rgba(0,0,0,0.87)\",\"iconSize\":\"24px\",\"titleTooltip\":\"\",\"dropShadow\":false,\"enableFullscreen\":false,\"widgetStyle\":{},\"titleStyle\":{\"fontSize\":\"16px\",\"fontWeight\":400},\"showLegend\":false,\"useDashboardTimewindow\":true,\"displayTimewindow\":true,\"widgetCss\":\"\",\"pageSize\":1024,\"noDataDisplayMessage\":\"\",\"borderRadius\":\"4px\",\"configMode\":\"basic\"}"
+    },
+    "externalId" : null,
+    "resources" : null,
+    "id" : {
+      "entityType" : "WIDGET_TYPE",
+      "id" : "f161e4f0-2f4c-11f0-b9cb-b1931284789b"
+    },
+    "scada" : false,
+    "tags" : [ "custom", "widget" ]
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
