@@ -21,6 +21,22 @@
   },
   "relations" : [ ],
   "attributes" : {
-    "SERVER_SCOPE" : [ ]
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "itop_uuid",
+      "lastUpdateTs" : 1747057317563,
+      "longValue" : 30428,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "outlet_id",
+      "lastUpdateTs" : 1747057317563,
+      "longValue" : null,
+      "strValue" : "9de1288d-6ec6-4a46-a567-b466eb10d5f8"
+    } ]
   }
 }
