@@ -1,0 +1,37 @@
+{
+  "entityType" : "WIDGET_TYPE",
+  "entity" : {
+    "fqn" : "my_widget_fqn",
+    "name" : "My Widget",
+    "deprecated" : false,
+    "image" : "tb-image;/api/images/system/my-widget.svg",
+    "description" : "A description of what this widget does.",
+    "descriptor" : {
+      "type" : "latest",
+      "sizeX" : 3,
+      "sizeY" : 1,
+      "resources" : [ ],
+      "templateHtml" : "<div class=\"my-widget\">\r\n    <h3>{{settings.label}}</h3>\r\n    <ul>\r\n        <li ng-repeat=\"d in data\">{{d}}</li>\r\n    </ul>\r\n</div>",
+      "templateCss" : ".my-widget {\r\n    font-family: sans-serif;\r\n    padding: 10px;\r\n    background: #f5f5f5;\r\n}\r\n\r\n.my-widget h3 {\r\n    margin-top: 0;\r\n}",
+      "controllerScript" : "/* widget controller uses `this` as `vm` */\r\nself.onInit = function () {\r\n    // `self.settings` holds values from your Settings form\r\n    console.log('Initialized widget with label:', self.settings.label);\r\n};\r\n\r\nself.onDataUpdated = function () {\r\n    // `self.ctx.data` is an array of your incoming timeseries / latest\r\n    // for demo we'll just pluck raw data values\r\n    self.ctx.data = [];\r\n    if (self.ctx.data && self.ctx.data.length) {\r\n        self.ctx.data.forEach(ds => {\r\n            ds.data.forEach(pt => self.ctx.data.push(pt[1]));\r\n        });\r\n    }\r\n};\r\n\r\nself.onResize = function () {\r\n    // handle container resize if needed\r\n};\r\n",
+      "settingsSchema" : "{\"schema\":{\"type\":\"object\",\"properties\":{\"label\":{\"title\":\"Widget Title\",\"type\":\"string\",\"default\":\"My Local Widget\"}}},\"form\":[{\"key\":\"label\",\"type\":\"text\"}]}",
+      "dataKeySettingsSchema" : "{\"schema\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\",\"title\":\"Datasource Name\"}},\"required\":[\"name\"]}},\"default\":[{\"name\":\"Temperature\"}]}",
+      "settingsDirective" : "tb-my_widget_fqn-widget-settings",
+      "hasBasicMode" : true,
+      "basicModeDirective" : "tb-my_widget_fqn-basic-config",
+      "defaultConfig" : "{\"datasources\":[],\"timewindow\":{\"realtime\":{\"timewindowMs\":60000}},\"showTitle\":false,\"backgroundColor\":\"#FFFFFF01\",\"color\":\"rgba(0, 0, 0, 0.87)\",\"padding\":\"0px\",\"settings\":{},\"title\":\"My Widget\",\"showTitleIcon\":false,\"iconColor\":\"rgba(0, 0, 0, 0.87)\",\"iconSize\":\"24px\",\"titleTooltip\":\"\",\"dropShadow\":false,\"enableFullscreen\":false,\"widgetStyle\":{},\"titleStyle\":{\"fontSize\":\"16px\",\"fontWeight\":400},\"showLegend\":false,\"useDashboardTimewindow\":true,\"displayTimewindow\":true,\"widgetCss\":\"\",\"pageSize\":1024,\"noDataDisplayMessage\":\"\",\"borderRadius\":\"4px\",\"configMode\":\"basic\"}"
+    },
+    "externalId" : null,
+    "resources" : null,
+    "id" : {
+      "entityType" : "WIDGET_TYPE",
+      "id" : "596c38d0-2f4c-11f0-b9cb-b1931284789b"
+    },
+    "scada" : false,
+    "tags" : [ "custom", "widget" ]
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
