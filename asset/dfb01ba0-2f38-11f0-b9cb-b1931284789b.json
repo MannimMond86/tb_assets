@@ -1,0 +1,42 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : { },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "dfae6df0-2f38-11f0-b9cb-b1931284789b"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "dfb01ba0-2f38-11f0-b9cb-b1931284789b"
+    },
+    "label" : "7ea312b0-b391-42b7-83ed-e95acffd80f9",
+    "name" : "EISENSTADT (1E)",
+    "type" : "Filiale"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "itop_id",
+      "lastUpdateTs" : 1747058176609,
+      "longValue" : 30220,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "outlet_id",
+      "lastUpdateTs" : 1747058176609,
+      "longValue" : null,
+      "strValue" : "1E"
+    } ]
+  }
+}
