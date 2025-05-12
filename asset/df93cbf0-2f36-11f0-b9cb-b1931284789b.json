@@ -1,0 +1,42 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : { },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "b0cdb4d0-2cfb-11f0-b9cb-b1931284789b"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "df93cbf0-2f36-11f0-b9cb-b1931284789b"
+    },
+    "label" : "BD",
+    "name" : "LU Heilbronn (BD)",
+    "type" : "Filiale"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "itop_uuid",
+      "lastUpdateTs" : 1747057317427,
+      "longValue" : 30026,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "outlet_id",
+      "lastUpdateTs" : 1747057317427,
+      "longValue" : null,
+      "strValue" : "25304c58-5e5e-4fd0-a253-2a6788503a10"
+    } ]
+  }
+}
