@@ -1,0 +1,42 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : { },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "b0cdb4d0-2cfb-11f0-b9cb-b1931284789b"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "df9ad0d0-2f36-11f0-b9cb-b1931284789b"
+    },
+    "label" : "WD",
+    "name" : "LU WIEN 22 (WD)",
+    "type" : "Filiale"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "itop_uuid",
+      "lastUpdateTs" : 1747057317473,
+      "longValue" : 30430,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "outlet_id",
+      "lastUpdateTs" : 1747057317473,
+      "longValue" : null,
+      "strValue" : "8cbe3db0-1c48-4591-a565-c1831de25f44"
+    } ]
+  }
+}
