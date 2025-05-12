@@ -1,0 +1,42 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : { },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "1ca40d00-2f39-11f0-b9cb-b1931284789b"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "1cac9882-2f39-11f0-b9cb-b1931284789b"
+    },
+    "label" : "76ece352-c5ca-4393-bcb6-4f242b06763d",
+    "name" : "LU Braunschweig (B1)",
+    "type" : "Filiale"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "itop_id",
+      "lastUpdateTs" : 1747058278925,
+      "longValue" : 30010,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "outlet_id",
+      "lastUpdateTs" : 1747058278925,
+      "longValue" : null,
+      "strValue" : "B1"
+    } ]
+  }
+}
