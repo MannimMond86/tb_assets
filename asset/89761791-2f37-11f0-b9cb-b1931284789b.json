@@ -1,0 +1,42 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : { },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "b0cdb4d0-2cfb-11f0-b9cb-b1931284789b"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "89761791-2f37-11f0-b9cb-b1931284789b"
+    },
+    "label" : "7225bcdb-ae7a-4842-8f7d-7530b25b1563",
+    "name" : "BISCHOFSHOFEN (1B)",
+    "type" : "Filiale"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "itop_uuid",
+      "lastUpdateTs" : 1747057602476,
+      "longValue" : 30214,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "outlet_id",
+      "lastUpdateTs" : 1747057602476,
+      "longValue" : null,
+      "strValue" : "1B"
+    } ]
+  }
+}
