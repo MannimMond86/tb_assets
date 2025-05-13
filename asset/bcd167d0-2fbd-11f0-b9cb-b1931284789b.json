@@ -1,0 +1,30 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "itop_id" : "30004",
+      "itop_uuid" : "08edaf30-0a0f-44e7-9482-54a5f978631e",
+      "outlet_id" : "AN"
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "1ca40d00-2f39-11f0-b9cb-b1931284789b"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "bcd167d0-2fbd-11f0-b9cb-b1931284789b"
+    },
+    "label" : "08edaf30-0a0f-44e7-9482-54a5f978631e",
+    "name" : "LU Aschheim (AN)",
+    "type" : "Filiale"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
