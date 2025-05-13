@@ -1,0 +1,30 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "itop_id" : "30228",
+      "itop_uuid" : "bd112133-14fb-4a00-a3a8-230593acd4bb",
+      "outlet_id" : "GD"
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "1ca40d00-2f39-11f0-b9cb-b1931284789b"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "3e682301-2fba-11f0-b9cb-b1931284789b"
+    },
+    "label" : "bd112133-14fb-4a00-a3a8-230593acd4bb",
+    "name" : "GLEISDORF (GD)",
+    "type" : "Filiale"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
